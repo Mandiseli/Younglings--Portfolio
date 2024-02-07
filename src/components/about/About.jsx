@@ -2,6 +2,7 @@ import React from "react";
 import AboutImg from "../../assets/home.jpg"
 import CV from "../../assets/myCV.pdf"
 import Info from "./Info";
+import "./about.css";
 
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
             <span className="section_subtitle">My Introduction</span>
 
             <div className="about_container container grid">
-                <img src={AboutImg} alt="" className="home.jpg" />
+                <img src={AboutImg} alt="" className="about_img" />
 
                 <div className="about_data">
                     <Info/>
@@ -24,7 +25,7 @@ const About = () => {
                     graduate internship or entry level job in the field that aligns with my studies.
                     </p>
 
-                    <a download="" href={CV} className="button button--flex">Download CV</a>
+                    <a download="myCV.pdf" href={CV} className="button button--flex">Download CV</a>
 
 
                 </div>
