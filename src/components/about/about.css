@@ -17,7 +17,7 @@
 }
 
 .about_box {
-    background-color: var(--container-color);
+    background-color: grey;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
@@ -37,6 +37,10 @@
 
 .about_subtitle {
     font-size: var(--tiny-font-size);
+}
+ 
+.about_data h3 {
+    font-size: 2rem;
 }
 
 .about_description {

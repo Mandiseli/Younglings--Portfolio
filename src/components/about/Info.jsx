@@ -2,6 +2,7 @@ import React from "react";
 
 const Info = () => {
     return (
+        
         <div className="about_info grid">
             <div className="about_box">
                 <i class="bx bx-award about_icon"></i>
