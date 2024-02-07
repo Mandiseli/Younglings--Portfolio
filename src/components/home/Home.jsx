@@ -15,7 +15,6 @@ const Home = () => {
                     <Social/>
                     
                     <div className="home_img">
-                        Home page
                     </div>
                     
                     <Data/>

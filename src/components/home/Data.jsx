@@ -10,7 +10,6 @@ const Data = () => {
             <p className="home_description">This is my official portfolio website to show all my
                 Details and work Experience</p>
 
-                <a href="#download" className="button button--flex">Download CV</a>
                 <a href="#contact" className="button button--flex">Contact Me</a>
         </div>
     )
