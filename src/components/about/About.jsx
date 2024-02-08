@@ -15,7 +15,7 @@ const About = () => {
                 <img src={AboutImg} alt="" className="about_img" />
 
                 <div className="about_data">
-                    <h3>Junior Software Developer</h3>
+                    <h3 className="about_head">Junior Software Developer</h3>
                     <Info/>
 
                     <p className="about_description">i am energetic, goal-driven National Diploma in Information Technology 

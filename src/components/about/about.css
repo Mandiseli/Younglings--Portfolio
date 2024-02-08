@@ -39,8 +39,9 @@
     font-size: var(--tiny-font-size);
 }
  
-.about_data h3 {
+.about_head  {
     font-size: 2rem;
+    Color: var(--title-color-dark)
 }
 
 .about_description {
