@@ -48,6 +48,7 @@ const Services = () => {
           <p>As a software developer experienced in JavaScript, VB.Net, Java, and Python, I specialize in Software Application. You can find some of my projects on my GitHub Profile.</p>
         </div>
         </div>
+
         </section>
     )
 }

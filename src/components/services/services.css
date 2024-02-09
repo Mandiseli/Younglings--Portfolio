@@ -9,7 +9,7 @@
 .services_content{
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: grey;
+    background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
     border-radius: 2rem;
     text-align: center;
@@ -17,17 +17,17 @@
 }
 
 .service_container .services_content:hover {
-    background-color: var(--main-color);
+    border-color: var(--main-color);
     transform: scale(1.02);
 
 }
 
-/*.services_icon{
+.services_icon{
     display: block;
     font-size: 2rem;
     color: var(--title-color);
     margin-bottom: var(--mb-1);
-}*/
+}
 
 .services_title{
     font-size: var(--h3-font-size);
