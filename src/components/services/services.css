@@ -1,5 +1,5 @@
-.service_container {
-    grid-template-columns: repeat(3, 270px);
+.services-container {
+    grid-template-columns: repeat(3, 380px);
     justify-content: center;
     column-gap: 1.8rem;
     align-items: center;
@@ -9,15 +9,15 @@
 .services_content{
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--container-color);
-    padding: 6rem 0 2rem 2.5rem;
+    background-color: grey;
+    padding: 1.5rem 0 2rem 2.5rem;
     border-radius: 2rem;
     text-align: center;
 
 }
 
-.service_container .services_content:hover {
-    border-color: var(--main-color);
+.services-container .services_content:hover {
+    background-color: var(--title-color-dark);
     transform: scale(1.02);
 
 }
@@ -38,14 +38,14 @@
 /*========================BREAKPOINTS=================*/
 /*For large devices*/
 @media screen and (max-width: 992px) { 
-    .service_container {
+    .services-container {
         grid-template-columns: repeat(3, 218px);
     }
   }
   
   /*For medium devices*/
   @media screen and (max-width: 768px) { 
-    .service_container {
+    .services-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -64,7 +64,7 @@
   
   /*For small devices*/
   @media screen and (max-width: 350px) {
-    .service_container {
+    .services-container {
         grid-template-columns: max-content;
     }  
 

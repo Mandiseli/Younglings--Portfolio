@@ -17,35 +17,49 @@ const Services = () => {
         <div className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Web Development</h3>
-          <p>Building, Creating and Maintaining. View my portfolio and allow me to get your website online in no time.</p>
+          <p>Building, Creating and Maintaining. 
+            View my portfolio and allow me to 
+            get your website online in no time.</p>
           
         </div>
 
         <div className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Python Development</h3>
-          <p>A Python Developer specializes in programming and software development using the Python language.</p>
+          <p>A Python Developer specializes
+             in programming and software 
+             development using the 
+             Python language.</p>
           
         </div>
 
         <div className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Software Developer</h3>
-          <p>As a software developer experienced in JavaScript, VB.Net, Java and Python, I specialize in Software Application. You can find some of my projects on my GitHub Profile.</p>
+          <p>As a software developer experienced
+             in JavaScript, VB.Net, Java and Python, 
+             I specialize in Software Application. 
+             You can find some of my projects on 
+             my GitHub Profile.</p>
           
         </div>
 
         <div className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Java Developer</h3>
-          <p>Java developers use the Java language for programming and software development.</p>
+          <p>Java developers use 
+            the Java language for programming
+             and software development.</p>
           
         </div>
 
         <div className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">IT Technical Support</h3>
-          <p>As a software developer experienced in JavaScript, VB.Net, Java, and Python, I specialize in Software Application. You can find some of my projects on my GitHub Profile.</p>
+          <p>As a software developer experienced in
+             JavaScript, VB.Net, Java, and Python, I specialize in Software Application. 
+             You can find some of my projects on 
+             my GitHub Profile.</p>
         </div>
         </div>
 
