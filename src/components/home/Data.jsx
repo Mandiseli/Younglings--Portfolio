@@ -1,6 +1,7 @@
 import React from "react";
 
 const Data = () => {
+   
     return (
         <div className="home_data">
             <h3 className="home_title">
@@ -12,6 +13,8 @@ const Data = () => {
 
                 <a href="#contact" className="button button--flex">Contact Me</a>
         </div>
+        
+        
     )
 }
 

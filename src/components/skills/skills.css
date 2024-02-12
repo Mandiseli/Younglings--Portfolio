@@ -37,7 +37,7 @@
 
 .skills .bx-badge-check {
     font-size: 1rem;
-    color: var(--title-color);
+    color: var(--title-color-dark);
 }
 
 .skills_name {
@@ -48,6 +48,7 @@
 
 .skills_level {
     font-size: var(--tiny-font-size);
+    color: var(--title-color-dark);
 
 }
 

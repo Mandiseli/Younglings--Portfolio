@@ -1,7 +1,7 @@
 import React from "react";
 import "./work.css";
 import Works from "./Works";
-import WorkItems from "./WorkItems";
+//import WorkItems from "./WorkItems";
 //import Data from "../home/Data";
 
 const Work = () => {
@@ -11,7 +11,7 @@ const Work = () => {
             <span className="section_subtitle">My recent work</span>
 
             <Works/>
-            <WorkItems/>
+            
             
         </section>
     )
