@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
+import Work from "./components/work/Work";
 
 const App = () => {
     return (
@@ -12,10 +13,11 @@ const App = () => {
         <Header/>
 
         <main className="main">
-            <About/>    
             <Home />
+            <About/>
             <Skills/>
             <Services/>
+            <Work/>
 
         </main>
         </>
