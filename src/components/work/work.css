@@ -21,13 +21,14 @@
 }
 
 .work_container {
+    display: grid;
     grid-template-columns: repeat(2, max-content);
     gap: 3rem;
     justify-content: center;
 }
 
 .work_card {
-    background-color: var(--container-color);
+    background-color: grey;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;

@@ -124,12 +124,15 @@ img {
 .section_title {
   font-size: var(--h1-font-size);
   color: black;
+  animation: fadeInUp 0.5s ease forwards;
+
 }
 .section_subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
   color: #2E8BC0;
+  animation: fadeInUp 0.5s ease 0.2s forwards; /* Delayed animation */
 }
 
 .section_title,
@@ -143,6 +146,19 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Keyframe animation definition */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;

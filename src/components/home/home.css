@@ -71,7 +71,6 @@
     }
   }
 
-.home_subtitle:nth-of-type(2)
 
  .home_subtitle::before {
     content: '';
