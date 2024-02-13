@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import Social from "./Social";
-import ScrollDown from "./ScrollDown";
+//import ScrollDown from "./ScrollDown";
 //import CV from "../../assets/"
 import Data from "./Data";
 
@@ -20,7 +20,7 @@ const Home = () => {
                     <Data/>
                 </div>
                 
-                <ScrollDown/>
+                
             </div>
         </section>
     );
