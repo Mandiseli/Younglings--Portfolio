@@ -4,8 +4,12 @@ import { useEffect } from 'react';
 import { projectsData } from './data';
 import { projectsNav } from './data';
 import WorkItems from './WorkItems';
+import Aos from 'aos';
 
 const Works = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, []);
     const [item, setItem] = useState({name: 'all'});
     const [projects, setProjects] = useState([]);
     const [active, setActive] = useState(0);
@@ -47,7 +51,9 @@ const Works = () => {
                 })}
             </div>
 
-        <div className="work_container" container grid>
+        <div  data-aos="flip-left"
+        
+        data-aos-easing="ease-out-cubic" className="work_container" container grid>
             {projects.map((item) => {
                 return <WorkItems item={item} key={item.id} />
             })}

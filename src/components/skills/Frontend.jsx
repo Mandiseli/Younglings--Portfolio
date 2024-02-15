@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 
 const FrontEnd = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, []);
     return (
-        <div className="skills_content">
+        <div  data-aos="fade-up" className="skills_content">
             <h3 className="skills_title">Frontend Developer</h3>
 
             <div className="skills_box">

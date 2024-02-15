@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 import "./services.css";
 
 const Services = () => {
+  useEffect(() => {
+    Aos.init({duration: 2000})
+}, []);
     //const [toggleState, setToggleState] = useState(0);
 
     //const toggleTab = (index) => {
@@ -14,7 +18,7 @@ const Services = () => {
             <span className="section_subtitle">What I Offer</span> 
 
         <div className="services-container container grid">
-        <div className="services_content">
+        <div data-aos="flip-up" className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Web Development</h3>
           <p>Building, Creating and Maintaining. 
@@ -23,7 +27,7 @@ const Services = () => {
           
         </div>
 
-        <div className="services_content">
+        <div data-aos="flip-down" className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Python Development</h3>
           <p>A Python Developer specializes
@@ -33,7 +37,7 @@ const Services = () => {
           
         </div>
 
-        <div className="services_content">
+        <div  data-aos="flip-left" className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Software Developer</h3>
           <p>As a software developer experienced
@@ -44,7 +48,7 @@ const Services = () => {
           
         </div>
 
-        <div className="services_content">
+        <div  data-aos="flip-right" className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">Java Developer</h3>
           <p>Java developers use 
@@ -53,7 +57,7 @@ const Services = () => {
           
         </div>
 
-        <div className="services_content">
+        <div  data-aos="zoom-in" className="services_content">
           <i className="uil uil services_icon"></i>
           <h3 className="services_title">IT Technical Support</h3>
           <p>As a software developer experienced in
