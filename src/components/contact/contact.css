@@ -19,7 +19,7 @@
 }
 
 .contact_card {
-    background-color: var(--container-color);
+    background-color: grey;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 0.75rem;
@@ -47,7 +47,7 @@
 }
 
 .contact_button {
-    color: var(--title-color);
+    color: var(--title-color-dark);
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
@@ -68,7 +68,7 @@
     width: 360px;
 }
 
-.contact_form-div{
+.contact_form-div {
     position: relative;
     margin-bottom: 1.25rem;
     height: 4rem;

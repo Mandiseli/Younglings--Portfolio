@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 import "./contact.css";
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_r229kk7', 
+      'template_duopm39', 
+      form.current, {
+        publicKey: 'GO40VW9Lgnu9z7UdP',
+      })
+      e.target.reset()
+  };
     return (
         <section className="contact section" id="contact">
             <h2 className="section_title">Contact Me</h2>
@@ -20,7 +35,7 @@ const Contact = () => {
 
                             <a href="#" className="contact_button">Write me <i 
                             className="bx bx-right-arrow-alt 
-                            contact_button icon"></i> </a>
+                            contact_button-icon"></i> </a>
                         </div>
 
                         <div className="contact_card">
@@ -31,7 +46,7 @@ const Contact = () => {
 
                             <a href="#" className="contact_button">Write me <i 
                             className="bx bx-right-arrow-alt 
-                            contact_button icon"></i> </a>
+                            contact_button-icon"></i> </a>
                         </div>
 
                         <div className="contact_card">
@@ -42,7 +57,7 @@ const Contact = () => {
 
                             <a href="#" className="contact_button">Write me <i 
                             className="bx bx-right-arrow-alt 
-                            contact_button icon"></i> </a>
+                            contact_button-icon"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +65,8 @@ const Contact = () => {
                 <div className="contact_content">
                     <h3 className="contact_title">Write me your project</h3>
 
-                    <form className="contact_form">
+                    <form ref={form} onSubmit={sendEmail}
+                     className="contact_form">
                         <div className="contact_form-div">
                             <label className="contact_form-tag">Name</label>
                             <input 
@@ -69,10 +85,10 @@ const Contact = () => {
                             placeholder="Full-Name" />
                         </div>
 
-                        <div className="contact_form-div">
-                            <label className="contact_form-tag">Projects</label>
+                        <div className="contact_form-div contact_form-area">
+                            <label className="contact_form-tag">Message</label>
                             <textarea 
-                            name="project" 
+                            name="message" 
                             cols="30" 
                             rows="10"
                             className="contact_form-input"
