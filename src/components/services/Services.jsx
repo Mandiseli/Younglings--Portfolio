@@ -14,8 +14,8 @@ const Services = () => {
     return (
         
         <section className="services section" id="services">
-            <h2 className="section_title">Services</h2>
-            <span className="section_subtitle">What I Offer</span> 
+            <h2 data-aos="fade-up" className="section_title">Services</h2>
+            <span data-aos="fade-up" className="section_subtitle">What I Offer</span> 
 
         <div className="services-container container grid">
         <div data-aos="flip-up" className="services_content">

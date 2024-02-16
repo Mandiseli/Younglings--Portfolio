@@ -21,14 +21,14 @@
 }
 .home_social-icon:hover {
     color: var(--title-color-dark);
-    transform: scale(1.2);
+    transform: rotate(360deg);
 }
 
 .home_social-icon {
     display: inline-block;
     margin: 0 10px;
     transition: transform 0.3s ease-in-out; 
-    animation: bounce 0.5s infinite;
+    /* animation: bounce 0.5s infinite; */
 }
 
 @keyframes bounce {
@@ -52,7 +52,7 @@
     line-height: 1.3;
     margin-bottom: var(--mb-0-25);
     color: var(--title-color-dark);
-    animation: slideIn 2s ease forwards; /* Apply animation */
+    /* animation: slideIn 2s ease forwards; Apply animation */
     /* position: relative;
     font-size: var(--big-font-size);
      padding-left: 5.4rem; 
@@ -60,16 +60,16 @@
     margin-bottom: var(--mb-1);  */
 }
 /* Define the animation */
-@keyframes slideIn {
+/* @keyframes slideIn {
     from {
       transform: translateY(-20px); /* Start position */
-      opacity: 0; /* Start opacity */
-    }
+      /* opacity: 0; Start opacity */
+    /* }
     to {
       transform: translateY(0); /* End position */
-      opacity: 1; /* End opacity */
+      /* opacity: 1; End opacity
     }
-  }
+  }  */
 
 
  .home_subtitle::before {

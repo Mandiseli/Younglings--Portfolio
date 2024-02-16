@@ -1,5 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import Aos from 'aos';
 
 import "./contact.css";
 
@@ -17,12 +18,15 @@ const Contact = () => {
       })
       e.target.reset()
   };
+  useEffect(() => {
+    Aos.init({duration: 2000})
+}, []);
     return (
         <section className="contact section" id="contact">
-            <h2 className="section_title">Contact Me</h2>
-            <span className="section_subtitle">Get In Touch</span>
+            <h2 data-aos="fade-up" className="section_title">Contact Me</h2>
+            <span data-aos="fade-up" className="section_subtitle">Get In Touch</span>
 
-            <div className="contact_container container grid">
+            <div data-aos="zoom-in" className="contact_container container grid">
                 <div className="contact_content">
                     <h3 className="contact_title">Talk to me</h3>
 
